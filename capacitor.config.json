@@ -1,0 +1,38 @@
+{
+  "appId": "com.financeos.app",
+  "appName": "FinanceOS",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": true,
+      "backgroundColor": "#060d1a",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "style": "dark",
+      "backgroundColor": "#0d1b2a"
+    },
+    "Keyboard": {
+      "resize": "body",
+      "style": "dark",
+      "resizeOnFullScreen": true
+    }
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "android/app/financeos.keystore",
+      "keystorePassword": "financeos123",
+      "keystoreAlias": "financeos",
+      "keystoreAliasPassword": "financeos123"
+    }
+  },
+  "ios": {
+    "scheme": "FinanceOS"
+  }
+}
